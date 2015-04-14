@@ -34,7 +34,7 @@ function moveDisk() {
 }
 
 function win() {
-  if ($('#tower3').children().length === 3) { alert('YOU WON!'); reset(); }
+  if ($('#tower3').children().length === $('#number').val()) { alert('YOU WON!'); reset(); }
 }
 
 function reset() {
