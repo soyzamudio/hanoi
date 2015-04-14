@@ -9,7 +9,7 @@ function init() {
 }
 
 function startBoard() {
-  $('#tower1').empty();
+  reset();
   for (var i = 0; i < $('#number').val(); i++) {
     var $div = $('<div>');
     $div.attr('id', i+1).addClass('disc').css('width', (((i+1)/10)*100) + '%').text(i+1);
@@ -34,5 +34,9 @@ function moveDisk() {
 }
 
 function win() {
-  if ($('#tower3').children().length === 3) { alert('YOU WON!'); }
+  if ($('#tower3').children().length === 3) { alert('YOU WON!'); reset(); }
+}
+
+function reset() {
+  $('#tower1, #tower2, #tower3').empty();
 }
