@@ -1,0 +1,11 @@
+{
+  "name": "henoi",
+  "version": "0.0.0",
+  "authors": [
+    "Jose Zamudio <zamudio@outlook.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}

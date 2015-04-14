@@ -1,0 +1,31 @@
+body{
+  background-color:pink;
+}
+
+title{
+  font-family: monospace;
+  letter-spacing: 10px;
+  font-size: 40px;
+  text-align:center;
+}
+
+.disc{
+  background-color:yellow;
+  border: 1px solid red;
+  height: 25px;
+  margin: 10px;
+  text-align:center;
+  padding:10px;
+  vertical-align:middle;
+  margin:auto;
+  margin-top:30px;
+}
+
+.tower{
+  width:30%;
+  display:inline-block;
+  margin-top:25px;
+  height:300px;
+  border: 1px solid blue;
+  vertical-align:bottom;
+}
